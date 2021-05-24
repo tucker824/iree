@@ -755,8 +755,8 @@ static Value getInplaceResultBuffer(OpBuilder &b, OpResult resultValue,
     Operation *op = value.getDefiningOp();
     resultBuffer =
         TypeSwitch<Operation *, Value>(op)
-            .Case<linalg::LinalgOp, SubTensorInsertOp, vector::TransferWriteOp>(
-                [&](auto op) { return resultBuffer; })
+            .Case<linalg::LinalgOp, SubTensorInsertOp, vector::TransferWriteOp,
+                  scf::ForOp>([&](auto op) { return resultBuffer; })
             .Case<linalg::TensorReshapeOp>(
                 [&](linalg::TensorReshapeOp reshapeOp) {
                   return getReverseOfReshapeOp(b, reshapeOp, resultBuffer);
