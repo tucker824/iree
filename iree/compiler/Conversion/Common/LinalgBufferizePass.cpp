@@ -401,8 +401,8 @@ static LogicalResult analyseSubTensorOp(SubTensorOp subTensorOp,
     plan.insert(subTensorOp.result());
     return success();
   }
-  return analyseSingleOperandResultOp(subTensorOp.source(),
-                                      subTensorOp.result(), plan);
+  plan.unionSets(subTensorOp.source(), subTensorOp.result());
+  return success();
 }
 
 /// Adds the `dest` and `result` tensor of a subtensor insert operation into the
@@ -413,10 +413,8 @@ static LogicalResult analyseDestructiveUpdateOp(Operation *op, Value source,
                                                 BufferizationPlan &plan) {
   if (dest.hasOneUse() && !isFromReadOnlyTensor(dest)) {
     plan.unionSets(dest, result);
-  }
-  if (source && plan.isEquivalent(source, dest)) {
-    return op->emitError(
-        "unexpected source and dest being mapped to same buffer");
+  } else if (source && plan.isEquivalent(source, dest)) {
+    return success();
   }
   plan.insert(dest);
   plan.insert(result);

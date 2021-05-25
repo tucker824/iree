@@ -2086,9 +2086,7 @@ module  {
 //    CHECK-DAG:                    %[[L1_I_SIZE:.+]] = affine.min #{{.*}}(%[[WORKGROUP_I_SIZE]], %[[L1_I]])
 //    CHECK-DAG:                    %[[L1_J_SIZE:.+]] = affine.min #{{.*}}(%[[WORKGROUP_J_SIZE]], %[[L1_J]])
 //    CHECK-DAG:                    %[[DST_L1_TILE:.+]] = memref.subview %[[DST_WORKGROUP_TILE]][%[[L1_I]], %[[L1_J]]]
-//    CHECK-DAG:                    %[[L1DST:.+]] = memref.alloc(%[[L1_I_SIZE]], %[[L1_J_SIZE]])
-//        CHECK:                    linalg.copy(%[[DST_L1_TILE]], %[[L1DST]])
 //        CHECK:                    linalg.matmul
 //   CHECK-SAME:                    ins(%[[LHS_L1_TILE]], %[[RHS_L1_TILE]]
-//   CHECK-SAME:                    outs(%[[L1DST]]
-//        CHECK:                    linalg.copy(%[[L1DST]], %[[DST_L1_TILE]])
+//   CHECK-SAME:                    outs(%[[DST_L1_TILE]]
+//        CHECK:                    linalg.copy(%[[DST_L1_TILE]], %[[DST_L1_TILE]])
