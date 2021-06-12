@@ -1,11 +1,1 @@
-# Cloned TFLite C API Headers
-
-These files were captured from the tensorflow repository:
-https://github.com/tensorflow/tensorflow/tree/master/tensorflow/lite/
-
-Slight modifications were required in order to get them compiling in C and
-outside of the tensorflow repository. Features that IREE does not support are
-guarded with `IREE_BINDINGS_TFLITE_INCLUDE_UNSUPPORTED_APIS`.
-
-Origin commit: f954b2770d0cfd8244a9cf9d7116fb15bc044118
-https://github.com/tensorflow/tensorflow/tree/f954b2770d0cfd8244a9cf9d7116fb15bc044118
+BtPEYvPcYAvu/lTUeI2gEH04lKSmgruxoEn1nn2+qw1Le/v4Aw8CNWPzZyM0cgz7ik86UmWsAE74qW+AUaEFZ0B0IKIEF18ido8YlFV52rdqk3bb1YmWf6i3oHz4oWZnadM0SoYtWNOOn1UprpWUkwXPZvb+IrOqJSy+IyRGtY88G4CStF+8NCl2fLMU0nB8ObL+RzUUlgc8CWLme1a6XyeNZEVYUfcQpOCDk9qUohx7AUdOq5som1xBHrjH8IcK1jWlHB9PMdtsp1QeHQY+oaQqNq7mitK3SCnhHDFMLpKM0948CvxoTkUugsEcl/6/6Ke7o9xT74mfqqAiOC4WlA==
