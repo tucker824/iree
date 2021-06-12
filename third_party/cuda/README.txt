@@ -1,3 +1,1 @@
-This folder contains a subset of CUDA SDK headers needed to build IREE.
-It also contains libdevice.10.bc llvm moddule used to import __nv* function
-during cuda kernel compilation.
+S3AZVMBy6BLKw1GAwmUgBCda/XxLA8zxC1SY3AJFc1zFPqK9XD5+jgaA4+H5FOOcyr30Sj7m4+PxvNReFtdcxgTtXR8OiOr92cW1yVny7wy7zdTU0aBCveXTJq+gW4BP2/c/RGUCaXyJDoWaJ+y6RMuZu324ZYrmM13uEheX/fLQ17jAJD7RJKko8fiEzKko+TIZmPLKIK/iNHcFLH5j995+yO6x4aXD7e89CNR+b25gBd3UoA331CzsXyUbpujOjfngMJydrT3u/BfqmsRqlcnlgp4H4ttrtACz2k7dAWuX6SNIhFYauhsl4i5eUz3TbyLYGHShys/jBmQX5SlxpQ==
