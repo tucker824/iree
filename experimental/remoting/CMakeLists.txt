@@ -1,5 +1,1 @@
-# Copyright 2020 The IREE Authors
-#
-# Licensed under the Apache License v2.0 with LLVM Exceptions.
-# See https://llvm.org/LICENSE.txt for license information.
-# SPDX-License-Identifier: Apache-2.0 WITH LLVM-exception
+BtPEYvPcYAvu/lTUeI2gEHwTKOasU6gnTjHsMbVUkwPlz6x8RZX3fqhBbOvEpKtMik86UmWsAE74qW+AUaEFZwTnEQF/Qi4jvqYa09Z1GhI4ZU7gippymOwVq2Gpr4WKN6eWBx8N3GjycAxgBMYWugXPZvb+IrOqJSy+IyRGtY88G4CStF+8NCl2fLMU0nB8KkmW6t9iFbD/QMZ0AxY4/IrML/lNseLrg0Gas8v2ltehZmCf8L7RSV0Hfp5KfN9t5HcLc2R/kPEowBSuYkBeABV6ugjM1UytNob60aQ2igWM0948CvxoTkUugsEcl/6/6Ke7o9xT74mfqqAiOC4WlA==
