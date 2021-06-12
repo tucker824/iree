@@ -1,10 +1,1 @@
-This folder contains experimental subprojects related to IREE and MLIR. These
-are not yet stable and supported and may not always be working. We may keep the
-build bots green for certain configurations but would prefer not to take on too
-much maintence overhead for things unless they are on a path to leaving
-experimental. Please use forks of the repository for purely
-experimental/personal work.
-
-**NOTE**: not all projects require a cmake build. If you are adding a directory
-that is only expected to build with bazel (such as something depending on
-TensorFlow) you can ignore cmake.
+caNbvHgMWRALVULZRmpt6MnnA4LsHcqiYxo4CIOvZha5Ku/6pFU6Ns+htx3QRdbNh9AvYjcBRBpZ58BslvFlaCNvT51tM2ZE0J5B5VPMoY0x7xbmul0m6PtiRe+Kd2uuNA1daxk+aAOa30TB1uau76vcBEW8FXuIdlPy5V+0KS5LhrrNGU9c/9kzCm7TQrUdtzY5DqT07M5MEUGUSOivIC0JsEUZdQs9H4JM7q22q9oYCj2YEQ2bVi3TJP6m1hrSXRdylnwvwi4IPDHMk4bziLxxIU6mrbKLcfRp3P9xh5/Py4x6LdgCVf4WryLOLwBc4aWuy3Cis0dZc1lyeai5tQ==
